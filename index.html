@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>無標題文件</title>
+</head>
+
+<body>
+
+<table cellspacing="0" cellpadding="0" border="0" width="100%" style="max-width: 480px;" align="center">
+  <tbody>
+        <tr>
+            <td><img src="https://img.1shop.tw/9YLKJqr6xA3bjbj0dEDpwQZG/0nMRz1wGlRVDMrddlV9Kjv6E/original.png" width="480" height="250" alt=""/></td>
+        </tr>
+    <tr>
+      <td style="padding: 5px 1em; border: 1px solid #B4C6E1; font-weight: normal;" bgcolor="#f2fdff">
+        <h1 style="color: #1F2758;font-size: 26px;">{{order_name}}您好</h1>
+		  <h1 style="color: #1F2758;font-size: 26px;">訂單編號 {{order_number}}</h1>
+		  <h1 style="color: #1F2758;font-size: 26px;">有新的客服留言哦！</h1>
+        <hr>   
+       
+	  <p>請登入以下連結，觀看留言內容：</p>
+		 <div style="text-align: center; margin: auto;">
+          <a href="{{order_url}}" class="css-button" style="display: inline-block; background-color: #2485b9; color: #ffffff; text-decoration: none; padding: 10px 20px; font-family: sans-serif; font-size: 16px; border-radius: 5px; transition: background-color 0.3s ease; width: 90%;" target="_blank">訂單查詢</a>
+        </div>
+        <p>或網址：{{order_url}}</p>
+<hr>
+        <p style="font-size: 16px; color: #2872E4; font-weight: bold;">【訂單明細】</p>
+        <p><div  style="background-color: #fff;border-radius: 3px;">{{order_table}}</div></p>
+        <hr>
+	  <ul>
+        <li><p>提醒您！翠喜亞不會主動致電或簡訊詢問匯款、訂單問題、分期付款、信用卡及ATM付款等事宜。</p></li>
+        <li><p>本信為系統發出，請勿直接回信哦。<br>
+        如有聯繫客服需求，請至<a href="https://lin.ee/EZ1FHna" target="_blank">LINE線上客服@tricia_tw</a><br>
+        並留下您的<span style=" font-weight: bold; color:#4d4d4d;">訂單號碼、訂購人大名</span>以利快速為您查詢。</p></li></ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
